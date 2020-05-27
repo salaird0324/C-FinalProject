@@ -1,0 +1,23 @@
+﻿<Window x:Class="salf22FinalSnake.startGame"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:salf22FinalSnake"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="400" Width="500" KeyDown="Window_KeyDown" Loaded="Window_Loaded">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="4*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <Canvas Name="mycanvas" Background="Black"></Canvas>
+        <Canvas Grid.Column="1" Background="Aquamarine">
+            <TextBlock Name="Score" Canvas.Left="45"  Canvas.Top="50">0</TextBlock>
+            <Label Content="SCORE" FontFamily="forte" BorderThickness="5" FontStyle="Oblique" Canvas.Left="20" Canvas.Top="10" Height="35"/>
+
+        </Canvas>
+    </Grid>
+
+
+</Window>

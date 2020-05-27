@@ -1,0 +1,24 @@
+I created a variaion of the game snake where the objective is to eat the smaller blue circle while avoiding the bigger blue circle (poisonous food) 
+and with dealing with your snake speed slowly increasing as your score gets higher.
+
+HOW TO PLAY:
+1. Use the arrow keys to move your snake around. 
+2. Objective is to eat the smaller blue circle and avoid the slightly bigger one (because it is poisonous)
+3. Try to reach the highest score as your snake will gain speed the higher score you obtain.
+
+PACKAGES/LIBRARIES USED:
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows;
+using System.Windows.Controls;
+using System.Windows.Data;
+using System.Windows.Documents;
+using System.Windows.Input;
+using System.Windows.Media;
+using System.Windows.Media.Imaging;
+using System.Windows.Navigation;
+using System.Windows.Shapes;
+
